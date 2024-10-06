@@ -18,11 +18,17 @@ Este proyecto es una aplicación de frontend para gestionar suscripciones y canc
 1. Clona el repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/usuario/proyecto-gestion-fondos.git
+   git clone https://github.com/Sterap22/front-btg
+
+   ## Instalación
+2. Instalacion de dependencias:
+
+   ```bash
+   npm i
 
    ## Instalación
 
-2. Correr elproyecto en local:
+3. Correr el proyecto en local:
 
    ```bash
    npm run dev
