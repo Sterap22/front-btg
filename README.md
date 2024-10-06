@@ -1,10 +1,29 @@
-# React + Vite
+# Crear el archivo README.md descargable
+readme_path = "/mnt/data/README.md"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Guardar el contenido del README.md en el archivo
+with open(readme_path, "w") as file:
+    file.write("""
+# Gestión de Fondos - Frontend
 
-Currently, two official plugins are available:
+Este proyecto es una aplicación de frontend para gestionar suscripciones y cancelaciones de fondos, mostrando un historial de transacciones y permitiendo a los usuarios interactuar con fondos financieros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# front-btg
-# front-btg
+## Requisitos
+
+- Node.js (versión >= 12)
+- npm o yarn como gestor de paquetes
+
+## Instalación
+
+1. Clona el repositorio en tu máquina local:
+
+   ```bash
+   git clone https://github.com/usuario/proyecto-gestion-fondos.git
+
+   ## Instalación
+
+2. Correr elproyecto en local:
+
+   ```bash
+   npm run dev
+
